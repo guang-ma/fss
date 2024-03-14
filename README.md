@@ -5,19 +5,21 @@
 
 - Data Range: Fiscal Year 1997-2021
 
-# Download the firm-year version (transformation at 3-digit SIC industry)
+# the firm-year version (transformation at 3-digit SIC industry)
 - Frequency: Firm-Year
 
 - Variables: GVKEY, FYEAR (fiscal year), FSS
+- <a href='fss.dta'>Download Here</a>
 
-# Download the firmpair version (transformation at 3-digit SIC industry)
+# the firmpair version (transformation at 3-digit SIC industry)
 - Frequency: Firm i-j pair, Year
 
 - Variables: SICH3 (3-digit historical SIC code), FYEAR (fiscal year), GVKEY_i, GVKEY_j, FSS_Pair
-
-# Download the firmpair version (transformation at 2-digit SIC industry)
+- <a href='fss_pair.7z'>Download Here</a>
+# the firmpair version (transformation at 2-digit SIC industry)
 - Frequency: Firm i-j pair, Year
 
 - Variables: SICH2 (2-digit historical SIC code), FYEAR (fiscal year), GVKEY_i, GVKEY_j, FSS_Pair
-
-# Download the coding guidance for calculating FSS in R
+- <a href='fss_pair_SIC2.7z'>Download Here</a>
+# the coding guidance for calculating FSS in R
+- <a href='fss.R'>Download Here</a>
